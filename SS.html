@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<script src="scripts/giohang.js"></script>	
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="styles/ss.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div class="tong">
+<div class="dau">
+<a><img src="images/d933fa84-f4b5-4c27-9db7-804129b46376_preview_rev_1.png" class="anh" height="57px" width="80px"></a>
+<div class="tk">
+  <input type="text" placeholder="Tìm kiếm sản phẩm">
+  <button>
+    <img src="images/1.png">	 
+  </button>	
+</div>
+	<div class="cart-icon">
+    <a href="#" id="cart-button">
+        <img src="images/cv.jpg" alt="Giỏ hàng" width="30">
+        <span class="cart-count">0</span>
+    </a>
+</div>
+<div class="cart-dropdown">
+        <div class="cart-header">
+            <h3>Giỏ hàng của bạn</h3>
+        </div>
+        <div class="cart-items">
+            <!-- Các sản phẩm trong giỏ hàng sẽ được thêm vào đây -->
+        </div>
+        <div class="cart-total">
+            <span>Tổng tiền: </span>
+            <span id="cart-total-amount">0đ</span>
+        </div>
+        <button class="checkout-button" onclick="showQRCode()">Thanh toán</button>
+    </div>
+	<div class="modal" id="qrModal">
+    <div class="modal-content">
+        <span class="close-qr">&times;</span>
+        <h2>Quét mã QR để thanh toán</h2>
+        <div class="payment-amount" id="paymentAmount"></div>
+        <img src="images/qr.jpg" alt="QR Code" class="qr-code-img">
+    </div>
+</div>
+<div class="chudau"><h3 class="dn">HOTLINE:</h3>
+	<h3 href="dk.html" class="dk">0424.801.009</h3>
+	</div>
+</div>
+<div class="chu">
+	<ul>
+	<li class="tc"><b><a href="index.html">TRANG CHỦ</a></b></li>
+	<li><b><a href="gioithieu.html">GIỚI THIỆU </a></b></li>
+	<li><b><a href="tt.html">TIN TỨC</a></b></li>
+  <li class="dropdown"><b><a class="product-button">SẢN PHẨM</a></b></li>
+	<li><b><a href="SS.html">SĂN SALE</a></b></li>
+	<li><b><a href="hdtg.html">HƯỚNG DẪN TRẢ GÓP</a></b></li>
+	<li><b><a href="lh.html">LIÊN HỆ</a></b></li>
+	</ul>
+	</div>
+	<div class="dropdown-content">
+    <a href="main.html">Mainboard - Bo mạch chủ</a>
+    <a href="cpu.html">CPU - Bộ vi xử lý</a>
+    <a href="ram.html">RAM - Bộ nhớ trong</a>
+    <a href="vga.html">VGA - Card đồ họa</a>
+    <a href="ssd.html">SSD - HDD - M.2 NVME</a>
+    <a href="psu.html">PSU - Nguồn máy tính</a>
+    <a href="case.html">Case - Thùng vỏ máy tính</a>
+    <a href="sp.html">Màn Hình Máy Tính PC</a>
+    </div>
+<div id="slideshow"> 
+	<img class="bai1" src="images/ss1.jpg" alt="Ảnh 2"> 
+	<img class="bai1" src="images/ss2.jpg" alt="Ảnh 3">
+	<img class="bai1" src="images/ss3.jpg" alt="Ảnh 4">
+	<button class="nav-button prev" onclick="prevImage()">&#10094;</button> 
+	<button class="nav-button next" onclick="nextImage()">&#10095;</button>
+	</div>
+		<img class="meo" src="images/z6558863514295_9a7273aec103be199b309071c5956674.jpg" height="400px" width="400px">
+		<img class="ga" src="images/z6569842937257_cbcce122d463f4767c0f5b24230a8219.jpg" height="340px" width="540px">
+		<div>
+			<div class="chumeo">
+  <span style="color: red;">1 Voucher Duy Nhất</span>
+  <span>PC Gaming Meow NVT 86</span>
+  <span style="color: red;">(Giảm ngay 3.000.000đ)</span>
+				</div>
+<div class="nut">
+<a href="lh.html"><button style="background-color: #007bff; color: white; border: none; padding: 10px 20px; cursor: pointer;margin-left: 60px;">LIÊN HỆ NGAY</button></a>
+</div>
+</div>
+		<div class="footer">
+  <div class="footer-column">
+    <h4>THÔNG TIN LIÊN HỆ</h4>
+    <strong>CÔNG TY TNHH KỸ THUẬT CÔNG NGHỆ HDD COMPUTER</strong>
+    <p>CN1: 201 Bông Sao, Phường 5, Quận 8, TP – HCM</p>
+    <p>(ĐT: 0937.801.009 – 0938.478064 – 0899.854210)</p>
+    <p>CN2: 197 Đường 30/4 , Phường Thắng Nhất, TP–Vũng Tàu (ĐT: 0902.870125)</p>
+    <p>CSKH / Bảo Hành: 0937.801.009</p>
+    <p>Mail CSKH: <a href="mailto:cskh@thuancomputer.com">cskh@HHDcomputer.com</a></p>
+    <p>Giờ mở cửa: 8:30 AM – 20:00 PM</p>
+  </div> 
+  <div class="footer-column2">
+    <h4>DANH MỤC NỔI BẬT</h4>
+    <p><a href="sp.html">PC Gaming</a></p>
+    <p><a href="main.html">Mainboard – Bo mạch chủ</a></p>
+    <p><a href="cpu.html">CPU – Bộ vi xử lý</a></p>
+    <p><a href="vga.html">VGA – Card đồ họa</a></p>
+    <p><a href="ram.html">Ram – Bộ nhớ trong</a></p>
+    <p><a href="ssd.html">SSD – HDD – M.2 NVME</a></p>
+    <p><a href="psu.html">PSU – Nguồn máy tính</a></p>
+    <p><a href="case.html">Case – Thùng vỏ máy tính</a></p>
+  </div>
+</div>
+<button id="chatbot-toggle-btn"><img src="images/d933fa84-f4b5-4c27-9db7-804129b46376_preview_rev_1.png" height="30px"></button>
+    <div class="chatbot-popup" id="chatbot-popup">
+        <div class="chat-header">
+            <span> <a href="https://www.thecodinghubs.com/" target="_blank">HDD Computer Xin chào</a></span>
+			<button id="close-btn">&times;</button>
+        </div>
+        <div class="chat-box" id="chat-box">
+			<div id="message-section">
+      <div class="message" id="bot"><span id="bot-response" >Xin chào, tôi có thể giúp gì cho bạn</span></div>
+    </div>
+		</div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Gửi tin nhắn...">
+            <button id="send-btn">gửi</button>
+        </div>
+        <div class="copyright">
+            <a  href="https://www.thecodinghubs.com/" target="_blank"></a>
+        </div>
+</div>
+	</div>
+<script src="scripts/ss.js"></script>
+<script src="js/giohang.js"></script>
+</body>
+</html>

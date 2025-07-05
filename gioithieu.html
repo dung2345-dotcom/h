@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<script src="scripts/giohang.js"></script>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<link href="styles/gioithieu.css" type="text/css" rel="stylesheet">
+<body>
+	<div class="tong">
+<div class="dau">
+<a><img src="images/d933fa84-f4b5-4c27-9db7-804129b46376_preview_rev_1.png" class="anh" height="57px" width="80px"></a>
+<div class="tk">
+  <input type="text" placeholder="Tìm kiếm sản phẩm">
+  <button>
+    <img src="images/1.png">	 
+  </button>	
+</div>
+	<div class="cart-icon">
+    <a href="#" id="cart-button">
+        <img src="images/cv.jpg" alt="Giỏ hàng" width="30">
+        <span class="cart-count">0</span>
+    </a>
+</div>
+<div class="cart-dropdown">
+        <div class="cart-header">
+            <h3>Giỏ hàng của bạn</h3>
+        </div>
+        <div class="cart-items">
+            <!-- Các sản phẩm trong giỏ hàng sẽ được thêm vào đây -->
+        </div>
+        <div class="cart-total">
+            <span>Tổng tiền: </span>
+            <span id="cart-total-amount">0đ</span>
+        </div>
+        <button class="checkout-button" onclick="showQRCode()">Thanh toán</button>
+    </div>
+	<div class="modal" id="qrModal">
+    <div class="modal-content">
+        <span class="close-qr">&times;</span>
+        <h2>Quét mã QR để thanh toán</h2>
+        <div class="payment-amount" id="paymentAmount"></div>
+        <img src="images/qr.jpg" alt="QR Code" class="qr-code-img">
+    </div>
+</div>
+<div class="chudau"><h3 class="dn">HOTLINE:</h3>
+	<h3 href="dk.html" class="dk">0424.801.009</h3>
+	</div>
+</div>
+<div class="chu">
+	<ul>
+	<li class="tc"><b><a href="index.html">TRANG CHỦ</a></b></li>
+	<li><b><a href="gioithieu.html">GIỚI THIỆU </a></b></li>
+	<li><b><a href="tt.html">TIN TỨC</a></b></li>
+  <li class="dropdown"><b><a class="product-button">SẢN PHẨM</a></b></li>
+	<li><b><a href="SS.html">SĂN SALE</a></b></li>
+	<li><b><a href="hdtg.html">HƯỚNG DẪN TRẢ GÓP</a></b></li>
+	<li><b><a href="lh.html">LIÊN HỆ</a></b></li>
+	</ul>
+	</div>
+	<div class="dropdown-content">
+    <a href="main.html">Mainboard - Bo mạch chủ</a>
+    <a href="cpu.html">CPU - Bộ vi xử lý</a>
+    <a href="ram.html">RAM - Bộ nhớ trong</a>
+    <a href="vga.html">VGA - Card đồ họa</a>
+    <a href="ssd.html">SSD - HDD - M.2 NVME</a>
+    <a href="psu.html">PSU - Nguồn máy tính</a>
+    <a href="case.html">Case - Thùng vỏ máy tính</a>
+    <a href="sp.html">Màn Hình Máy Tính PC</a>
+    </div>
+		<div class="chu1">
+        <h1 class="gt">GIỚI THIỆU VỀ HHD COMPUTER</h1>
+        <p><strong>HHD Computer</strong>, tên đầy đủ là Công ty TNHH Kỹ Thuật Công Nghệ HHD, được thành lập từ năm 2020 và địa chỉ Showroom chính tại 201 Bờ Bao Sông Sao, Phường 5, Quận 8, Thành phố Hồ Chí Minh.</p>
+        <p>Chi nhánh tại TP. Vũng Tàu: 197 Đường 30/4, Phường Thắng Nhất, TP. Vũng Tàu</p>
+        <p class="dong2"><strong>HHDComputer</strong> chuyên cung cấp PC Gaming, PC Văn Phòng, Phụ kiện máy tính chính hãng, Setup Góc Gaming, Livestream... với nhiều cấu hình và mức giá cạnh tranh nhất.</p>
+        <ul>
+          <li class="tu1">Tư vấn Build PC theo nhu cầu của khách hàng</li>
+            <li>Hỗ trợ trả góp nhanh chóng</li>
+            <li>Tư vấn miễn phí 24/07</li>
+            <li>Hỗ trợ giao lắp máy tận nơi cho khách hàng</li>
+            <li>Cung cấp phụ kiện máy tính chính hãng</li>
+            <li>Chính sách thu cũ đổi mới hấp dẫn, hỗ trợ khách hàng nâng cấp máy</li>
+        </ul>
+        <p>Với phương châm hoạt động hướng tới sự hài lòng của khách hàng, HHD Computer cam kết mang đến sản phẩm chất lượng cao cùng dịch vụ tận tâm, đáp ứng nhu cầu đa dạng của cá nhân và doanh nghiệp trong thời đại số hóa.</p>
+    </div>
+	<div class="map-container" style="margin-top: 20px; width: 100%; height: 300px;">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.9554938633494!2d106.67796797480567!3d10.737972089415401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f6980a39ad5%3A0x8db7d851d9d68d3f!2zMjAxIELDtG5nIFNhbywgUGjGsOG7nW5nIDUsIFF14bqtbiA4LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1699799347321!5m2!1svi!2s" 
+        width="100%" 
+        height="100%" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+	<div class="footer">
+  <div class="footer-column">
+    <h4>THÔNG TIN LIÊN HỆ</h4>
+    <strong>CÔNG TY TNHH KỸ THUẬT CÔNG NGHỆ HDD COMPUTER</strong>
+    <p>CN1: 201 Bông Sao, Phường 5, Quận 8, TP – HCM</p>
+    <p>(ĐT: 0424.801.009 – 0938.474364 – 0899.853210)</p>
+    <p>CN2: 197 Đường 30/4 , Phường Thắng Nhất, TP–Vũng Tàu (ĐT: 0902.870125)</p>
+    <p>CSKH / Bảo Hành: 0374.557345</p>
+    <p>Mail CSKH: <a href="mailto:cskh@thuancomputer.com">cskh@HHDcomputer.com</a></p>
+    <p>Giờ mở cửa: 8:30 AM – 20:00 PM</p>
+  </div> 
+  <div class="footer-column2">
+    <h4>DANH MỤC NỔI BẬT</h4>
+   <p><a href="sp.html">PC Gaming</a></p>
+    <p><a href="main.html">Mainboard – Bo mạch chủ</a></p>
+    <p><a href="cpu.html">CPU – Bộ vi xử lý</a></p>
+    <p><a href="vga.html">VGA – Card đồ họa</a></p>
+    <p><a href="ram.html">Ram – Bộ nhớ trong</a></p>
+    <p><a href="ssd.html">SSD – HDD – M.2 NVME</a></p>
+    <p><a href="psu.html">PSU – Nguồn máy tính</a></p>
+    <p><a href="case.html">Case – Thùng vỏ máy tính</a></p>
+  </div>
+  </div>
+
+		<button id="chatbot-toggle-btn"><img src="images/d933fa84-f4b5-4c27-9db7-804129b46376_preview_rev_1.png" height="30px"></button>
+    <div class="chatbot-popup" id="chatbot-popup">
+        <div class="chat-header">
+            <span> <a href="https://www.thecodinghubs.com/" target="_blank">HDD Computer Xin chào</a></span>
+			<button id="close-btn">&times;</button>
+        </div>
+        <div class="chat-box" id="chat-box">
+			<div id="message-section">
+      <div class="message" id="bot"><span id="bot-response" >Xin chào, tôi có thể giúp gì cho bạn</span></div>
+    </div>
+		</div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Gửi tin nhắn...">
+            <button id="send-btn">gửi</button>
+        </div>
+        <div class="copyright">
+            <a  href="https://www.thecodinghubs.com/" target="_blank"></a>
+        </div>
+</div>
+	</div>
+<script src="scripts/gioithieu.js"></script>
+</body>
+</html>

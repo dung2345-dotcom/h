@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<script src="scripts/giohang.js"></script>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="styles/tt4.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="tong">
+<div class="dau">
+<a><img src="images/d933fa84-f4b5-4c27-9db7-804129b46376_preview_rev_1.png" class="anh" height="57px" width="80px"></a>
+<div class="tk">
+  <input type="text" placeholder="Tìm kiếm sản phẩm">
+  <button>
+    <img src="images/1.png">	 
+  </button>	
+</div>
+	<div class="cart-icon">
+    <a href="#" id="cart-button">
+        <img src="images/cv.jpg" alt="Giỏ hàng" width="30">
+      <span class="cart-count">0</span>
+    </a>
+</div>
+<div class="cart-dropdown">
+        <div class="cart-header">
+            <h3>Giỏ hàng của bạn</h3>
+        </div>
+        <div class="cart-items">
+            <!-- Các sản phẩm trong giỏ hàng sẽ được thêm vào đây -->
+        </div>
+        <div class="cart-total">
+            <span>Tổng tiền: </span>
+            <span id="cart-total-amount">0đ</span>
+        </div>
+        <button class="checkout-button" onclick="showQRCode()">Thanh toán</button>
+    </div>
+	<div class="modal" id="qrModal">
+    <div class="modal-content">
+        <span class="close-qr">&times;</span>
+        <h2>Quét mã QR để thanh toán</h2>
+        <div class="payment-amount" id="paymentAmount"></div>
+        <img src="images/qr.jpg" alt="QR Code" class="qr-code-img">
+    </div>
+</div>
+<div class="chudau"><a href="dn.html" class="dn">ĐĂNG NHẬP</a>
+	<a href="dk.html" class="dk">ĐĂNG KÝ</a>
+	</div>
+</div>
+<div class="chu">
+	<ul>
+	<li class="tc"><b><a href="index.html">TRANG CHỦ</a></b></li>
+	<li><b><a href="gioithieu.html">GIỚI THIỆU </a></b></li>
+	<li><b><a href="tt.html">TIN TỨC</a></b></li>
+  <li class="dropdown"><b><a class="product-button">SẢN PHẨM</a></b></li>
+	<li><b><a href="SS.html">SĂN SALE</a></b></li>
+	<li><b><a href="hdtg.html">HƯỚNG DẪN TRẢ GÓP</a></b></li>
+	<li><b><a href="lh.html">LIÊN HỆ</a></b></li>
+	</ul>
+  </div>
+  <div class="dropdown-content">
+    <a href="main.html">Mainboard - Bo mạch chủ</a>
+    <a href="cpu.html">CPU - Bộ vi xử lý</a>
+    <a href="ram.html">RAM - Bộ nhớ trong</a>
+    <a href="vga.html">VGA - Card đồ họa</a>
+    <a href="ssd.html">SSD - HDD - M.2 NVME</a>
+    <a href="psu.html">PSU - Nguồn máy tính</a>
+    <a href="case.html">Case - Thùng vỏ máy tính</a>
+    <a href="sp.html">Màn Hình Máy Tính PC</a>
+    </div>
+	<div class="giua">
+	<img style="width:  960px; margin-top: 10px;" src="images/z6558745941063_83a0f35827f12f4f2b505d807380084d.jpg">
+	<h1 style="width: 1000px;">Hướng dẫn cách xem card đồ họa nhanh chóng, đơn giản nhất</h1>
+	<p style="margin-top: 10px;">Cách xem card đồ họa trên máy tính là một thao tác quan trọng giúp bạn kiểm tra thông tin phần cứng. Từ đó có thể đánh giá hiệu suất, đảm bảo khả năng tương thích với các phần mềm hoặc trò chơi. Nếu bạn chưa biết cách kiểm tra như thế nào thì với những hướng dẫn chi tiết mà Nguyễn Thuận Computer chia sẻ sẽ giúp quá trình thực hiện đơn giản, nhanh chóng hơn nhiều.</p>
+	<h1 class="themchu">Tại sao cần phải biết cách xem card đồ họa?</h1>
+	<p>Việc kiểm tra card màn hình trên máy tính sẽ mang lại nhiều lợi ích quan trọng, giúp bạn tối ưu trải nghiệm sử dụng. Lý do cần kiểm tra như sau:</p><br>
+	<ul>
+    <li>Biết chính xác thông số card màn hình giúp bạn đánh giá hiệu suất của máy tính và khả năng chạy các phần mềm đồ họa hay game.</li><br>
+    <li>Kiểm tra độ tương thích của phần mềm hoặc game để tránh tình trạng giật lag hoặc không thể khởi động ứng dụng.</li><br>
+    <li>Kiểm tra model card giúp bạn tải đúng phiên bản driver, đảm bảo máy chạy mượt mà, tránh bị lỗi hiển thị hoặc hiệu suất kém.</li><br>
+    <li>Giúp phát hiện lỗi phần cứng hiệu quả để đưa ra hướng khắc phục đúng.</li><br>
+    <li>Khi muốn nâng cấp card đồ họa, bạn sẽ biết rõ loại card sử dụng hiện tại để lựa chọn sản phẩm phù hợp với mainboard và nguồn điện của máy.</li>
+  </ul>
+	<h1 class="themchu">5 cách xem card đồ họa chính xác, nhanh chóng</h1>
+	<p>Có khá nhiều cách để biết được chính xác card đồ họa máy tính hiện tại đang dùng. Dưới đây là 5 cách xem card đồ họa nhanh chóng, chính xác được nhiều người áp dụng. Cụ thể:</p><br>
+	<h3>Xem card màn hình bằng Run</h3><br>
+	<p>Nếu sử dụng Windows 10, bạn có thể kiểm tra card đồ họa bằng chính Run. Thực hiện như sau: </p><br>
+	<ul>
+    <li><strong>Bước 1:</strong> Mở hộp thoại Run nhấn phím <strong>Windows + R</strong>.</li><br>
+    <li><strong>Bước 2:</strong> Tại ô Open nhập lệnh <code>dxdiag</code>, sau đó nhấn <strong>OK</strong>.</li><br>
+    <li><strong>Bước 3:</strong> Giao diện DirectX Diagnostic Tool xuất hiện, bạn chọn thẻ <strong>Display</strong> để xem thông tin cấu hình của card đồ họa máy tính đang sử dụng. Lúc này bạn có thể xem được cấu hình card, tên card, bộ nhớ,...</li><br>
+  </ul>
+	<img class="anhmain1" src="images/tt41.jpg">
+	<h1 class="themchu
+			   ">Cách xem card đồ họa với Device Manager</h1>
+	<p>Bạn cũng có thể kiểm tra bằng Device Manager khá đơn giản với các bước thực hiện như sau:</p><br>
+	<ul>
+    <li><strong>Bước 1:</strong> Đầu tiên nhấn tổ hợp phím <strong>Windows + X</strong> để mở Device Manager lên.</li><br>
+    <li><strong>Bước 2:</strong> Trong cửa sổ Device Manager, bạn chọn mục <strong>Display adapters</strong>.</li><br>
+    <li><strong>Bước 3:</strong> Nhấn chuột phải vào card màn hình hiển thị trong mục này, sau đó nhấn chọn <strong>Properties</strong>.</li><br>
+    <li><strong>Bước 4:</strong> Trên bảng thông tin hiển thị bạn sẽ thấy được tên card đồ họa đang dùng cũng như tình trạng hoạt động của máy tính.</li><br>
+  </ul>
+	<h1 class="themchu">Cách xem card đồ họa dễ dàng trực tiếp trên Desktop</h1>
+	<p>Một cách khác cũng khá đơn giản được nhiều người áp dụng đó là xem trực tiếp trên màn hình Desktop. Đối với cách này bạn nhấn chuột phải vào một vị trí trống trên màn hình. Khi đó bạn sẽ thấy được thông tin về card màn hình mà thiết bị đang sử dụng.</p>
+	<h1 class="themchu">Kiểm tra bằng System Info</h1>
+	<p>System Info được sử dụng nhiều để xem thông tin card đồ họa máy tính. Các bước như sau: </p><br>
+	<ul>
+    <li><strong>Bước 1:</strong> Nhấn <strong>Windows + R</strong> mở Run.</li><br>
+    <li><strong>Bước 2:</strong> Nhập lệnh <code>msinfo32</code>, sau đó nhấn <strong>OK</strong>.</li><br>
+    <li><strong>Bước 3:</strong> Ở bảng điều khiển bên trái chọn <strong>System Summary</strong>.</li><br>
+    <li><strong>Bước 4:</strong> Xem thông số ở mục <strong>Processor</strong>.</li><br>
+    <li><strong>Bước 5:</strong> Nhấn vào biểu tượng dấu cộng để mở rộng <strong>Components</strong> và chọn <strong>Display</strong>.</li><br>
+    <li><strong>Bước 6:</strong> Mọi thông số về card màn hình sẽ hiển thị hết ở giá trị cột <strong>Name</strong>.</li>
+  </ul>
+	<img class="anhmain1" src="images/tt412.jpg">
+	<h1 class="themchu">Xem card bằng phần mềm CPU-Z</h1>
+	<p>CPU-Z được nhiều người sử dụng để kiểm tra thông tin về CPU, RAM, card đồ họa,… Cách kiểm tra này khá đơn giản khi bạn tải phần mềm về và cài đặt, sau đó khởi động phần mềm. Khi đó giao diện hiển thị của phần mềm sẽ cho biết những thông tin về card màn hình thiết bị chi tiết nhất.</p>
+	<h1 class="themchu">Cách xem card đồ họa bằng TechPowerUp GPU-Z</h1>
+	<p>TechPowerUp GPU-Z là một trong những ứng dụng miễn phí dùng để kiểm tra thông tin cấu hình của máy tính dễ dàng. Thực hiện như sau:</p><br>
+	 <ul>
+    <li><strong>Bước 1:</strong> Tải TechPowerUp GPU-Z về máy và tiến hành cài đặt phần mềm.</li><br>
+    <li><strong>Bước 2:</strong> Mở ra và khởi động phần mềm TechPowerUp GPU-Z.</li><br>
+    <li><strong>Bước 3:</strong> Chọn tab <strong>Graphics card</strong>, chú ý xem thông tin ở mục <strong>Name</strong>.</li><br>
+    <li><strong>Bước 4:</strong> Xem thông tin chi tiết về card màn hình bạn nhấn chọn <strong>Lookup</strong>.</li><br>
+  </ul>
+	<img class="anhmain1" src="images/tt4123.jpg">
+	<h1 class="themchu">Kiểm tra bằng phần mềm HWiNFO</h1>
+	<p>Phần mềm HWiNFO hỗ trợ người dùng kiểm tra thông tin card màn hình với hai tùy chọn: cài đặt phần mềm hoặc sử dụng phiên bản portable không cần cài đặt. Sau khi khởi chạy, HWiNFO sẽ tự động quét toàn bộ phần cứng, bao gồm GPU và hiển thị thông tin chi tiết lên màn hình.</p>
+	</div>
+	<button id="chatbot-toggle-btn"><img src="images/d933fa84-f4b5-4c27-9db7-804129b46376_preview_rev_1.png" height="30px"></button>
+    <div class="chatbot-popup" id="chatbot-popup">
+        <div class="chat-header">
+            <span> <a href="https://www.thecodinghubs.com/" target="_blank">HDD Computer Xin chào</a></span>
+			<button id="close-btn">&times;</button>
+        </div>
+        <div class="chat-box" id="chat-box">
+			<div id="message-section">
+      <div class="message" id="bot"><span id="bot-response" >Xin chào, tôi có thể giúp gì cho bạn</span></div>
+    </div>
+		</div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Gửi tin nhắn...">
+            <button id="send-btn">gửi</button>
+        </div>
+        <div class="copyright">
+            <a  href="https://www.thecodinghubs.com/" target="_blank"></a>
+        </div>
+	</div>
+		<div class="footer">
+  <div class="footer-column">
+    <h4>THÔNG TIN LIÊN HỆ</h4>
+    <strong>CÔNG TY TNHH KỸ THUẬT CÔNG NGHỆ HDD COMPUTER</strong>
+    <p>CN1: 201 Bông Sao, Phường 5, Quận 8, TP – HCM</p>
+    <p>(ĐT: 0424.801.009 – 0938.474364 – 0899.853210)</p>
+    <p>CN2: 197 Đường 30/4 , Phường Thắng Nhất, TP–Vũng Tàu (ĐT: 0902.870125)</p>
+    <p>CSKH / Bảo Hành: 0374.557345</p>
+    <p>Mail CSKH: <a href="mailto:cskh@thuancomputer.com">cskh@HHDcomputer.com</a></p>
+    <p>Giờ mở cửa: 8:30 AM – 20:00 PM</p>
+  </div> 
+  <div class="footer-column2">
+    <h4>DANH MỤC NỔI BẬT</h4>
+    <p><a href="sp.html">PC Gaming</a></p>
+    <p><a href="main.html">Mainboard – Bo mạch chủ</a></p>
+    <p><a href="cpu.html">CPU – Bộ vi xử lý</a></p>
+    <p><a href="vga.html">VGA – Card đồ họa</a></p>
+    <p><a href="ram.html">Ram – Bộ nhớ trong</a></p>
+    <p><a href="ssd.html">SSD – HDD – M.2 NVME</a></p>
+    <p><a href="psu.html">PSU – Nguồn máy tính</a></p>
+    <p><a href="case.html">Case – Thùng vỏ máy tính</a></p>
+  </div>
+</div>
+</div>
+<script src="scripts/tt4.js"></script>
+</body>
+</html>

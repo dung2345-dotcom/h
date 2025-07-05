@@ -1,0 +1,223 @@
+<!doctype html>
+<html>
+<head>
+<script src="scripts/giohang.js"></script>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="styles/tt3.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="tong">
+<div class="dau">
+<a><img src="images/d933fa84-f4b5-4c27-9db7-804129b46376_preview_rev_1.png" class="anh" height="57px" width="80px"></a>
+<div class="tk">
+  <input type="text" placeholder="Tìm kiếm sản phẩm">
+  <button>
+    <img src="images/1.png">	 
+  </button>	
+</div>
+	<div class="cart-icon">
+    <a href="#" id="cart-button">
+        <img src="images/cv.jpg" alt="Giỏ hàng" width="30">
+      <span class="cart-count">0</span>
+    </a>
+</div>
+<div class="cart-dropdown">
+        <div class="cart-header">
+            <h3>Giỏ hàng của bạn</h3>
+        </div>
+        <div class="cart-items">
+            <!-- Các sản phẩm trong giỏ hàng sẽ được thêm vào đây -->
+        </div>
+        <div class="cart-total">
+            <span>Tổng tiền: </span>
+            <span id="cart-total-amount">0đ</span>
+        </div>
+        <button class="checkout-button" onclick="showQRCode()">Thanh toán</button>
+    </div>
+	<div class="modal" id="qrModal">
+    <div class="modal-content">
+        <span class="close-qr">&times;</span>
+        <h2>Quét mã QR để thanh toán</h2>
+        <div class="payment-amount" id="paymentAmount"></div>
+        <img src="images/qr.jpg" alt="QR Code" class="qr-code-img">
+    </div>
+</div>
+<div class="chudau"><a href="dn.html" class="dn">ĐĂNG NHẬP</a>
+	<a href="dk.html" class="dk">ĐĂNG KÝ</a>
+	</div>
+</div>
+<div class="chu">
+	<ul>
+	<li class="tc"><b><a href="index.html">TRANG CHỦ</a></b></li>
+	<li><b><a href="gioithieu.html">GIỚI THIỆU </a></b></li>
+	<li><b><a href="tt.html">TIN TỨC</a></b></li>
+  <li class="dropdown"><b><a class="product-button">SẢN PHẨM</a></b></li>
+	<li><b><a href="SS.html">SĂN SALE</a></b></li>
+	<li><b><a href="hdtg.html">HƯỚNG DẪN TRẢ GÓP</a></b></li>
+	<li><b><a href="lh.html">LIÊN HỆ</a></b></li>
+	</ul>
+  </div>
+  <div class="dropdown-content">
+    <a href="main.html">Mainboard - Bo mạch chủ</a>
+    <a href="cpu.html">CPU - Bộ vi xử lý</a>
+    <a href="ram.html">RAM - Bộ nhớ trong</a>
+    <a href="vga.html">VGA - Card đồ họa</a>
+    <a href="ssd.html">SSD - HDD - M.2 NVME</a>
+    <a href="psu.html">PSU - Nguồn máy tính</a>
+    <a href="case.html">Case - Thùng vỏ máy tính</a>
+    <a href="sp.html">Màn Hình Máy Tính PC</a>
+    </div>
+	<div class="giua">
+	<img style="width:  960px; margin-top: 10px;" src="images/do1.jpg">
+		<h1 style="width: 700px; margin-left: 145px;">RTX5070 chính thức ra mắt chỉ từ $549 – Có</h1>
+		<h1 style="margin-left: 325px;">thực sự đáng mua?</h1>
+	<p style="margin-top: 10px;">NVIDIA vừa công bố dòng card màn hình GeForce RTX 5070 với hiệu suất ấn tượng: tương đương flagship RTX 4090 nhưng chỉ có giá bằng một phần ba! Đây thực sự là một sự thay đổi lớn, hứa hẹn mang đến trải nghiệm chơi game tuyệt vời cho nhiều game thủ.</p>
+	<img style="width:  960px; margin-top: 10px;" src="images/tt3.jpg">
+	<h1 class="themchu">Nvidia Geforce RTX 5070 có hiệu năng như thế nào?</h1>
+	<p style="margin-top: 10px;">Dòng RTX 5070 bao gồm RTX 5070 Ti và RTX 5070, được phát triển dựa trên kiến trúc NVIDIA Blackwell tiên tiến, cung cấp hiệu suất vượt trội so với thế hệ trước. Theo thông tin được tiết lộ, RTX 5070 Ti có hiệu năng tương tự như RTX 4090 – card màn hình mạnh nhất thuộc thế hệ 40 – ở độ phân giải 2560×1440, thiết lập đồ họa cao nhất, sử dụng DLSS 4.0 và Ray Tracing. Điều này có nghĩa là bạn có thể chơi mọi tựa game AAA ở mức thiết lập cao nhất mà không cần đầu tư một số tiền lớn.</p>
+	<img style="width:  960px; margin-top: 10px;" src="images/tt31.jpg">
+	<p style="margin-top: 10px;">Dưới đây là bảng so sánh chi tiết giữa RTX 5070 Ti, RTX 5070 và RTX 4090 dựa trên các thông tin đã được công bố:</p><br>
+	<table>
+    <thead>
+      <tr>
+        <th>Thông số</th>
+        <th>RTX 5070 Ti</th>
+        <th>RTX 5070</th>
+        <th>RTX 4090</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="highlight">Kiến trúc</td>
+        <td>Blackwell</td>
+        <td>Blackwell</td>
+        <td>Ada Lovelace</td>
+      </tr>
+      <tr>
+        <td class="highlight">Tensor Cores</td>
+        <td>Thế hệ thứ 5</td>
+        <td>Thế hệ thứ 5</td>
+        <td>Thế hệ thứ 4</td>
+      </tr>
+      <tr>
+        <td class="highlight">Ray Tracing Cores</td>
+        <td>Thế hệ thứ 4</td>
+        <td>Thế hệ thứ 4</td>
+        <td>Thế hệ thứ 3</td>
+      </tr>
+      <tr>
+        <td class="highlight">AI TOPS</td>
+        <td>1406</td>
+        <td>988</td>
+        <td>661 (với Sparse) / 1321 (với FP8)</td>
+      </tr>
+      <tr>
+        <td class="highlight">DLSS</td>
+        <td>DLSS 4 (bao gồm Multi Frame Generation)</td>
+        <td>DLSS 4 (bao gồm Multi Frame Generation)</td>
+        <td>DLSS 3 (bao gồm Frame Generation)</td>
+      </tr>
+      <tr>
+        <td class="highlight">Reflex</td>
+        <td>Reflex 2 (bao gồm Frame Warp - sắp ra mắt)</td>
+        <td>Reflex 2 (bao gồm Frame Warp - sắp ra mắt)</td>
+        <td>Reflex</td>
+      </tr>
+      <tr>
+        <td class="highlight">NVIDIA Encoder</td>
+        <td>2x 9th Gen</td>
+        <td>1x 9th Gen</td>
+        <td>2x 8th Gen</td>
+      </tr>
+      <tr>
+        <td class="highlight">NVIDIA Decoder</td>
+        <td>1x 6th Gen</td>
+        <td>1x 6th Gen</td>
+        <td>1x 5th Gen</td>
+      </tr>
+      <tr>
+        <td class="highlight">VRAM</td>
+        <td>16 GB GDDR7</td>
+        <td>12 GB GDDR7</td>
+        <td>24 GB GDDR6X</td>
+      </tr>
+      <tr>
+        <td class="highlight">Băng thông bộ nhớ</td>
+        <td>896 GB/s</td>
+        <td>672 GB/s</td>
+        <td>1008 GB/s</td>
+      </tr>
+      <tr>
+        <td class="highlight">Hiệu năng (2560x1440, Max Settings, DLSS)</td>
+        <td>Tương đương RTX 4090</td>
+        <td>Thấp hơn RTX 5070 Ti</td>
+        <td>Ngang bằng RTX 5070 Ti (ở thiết lập đã nêu)</td>
+      </tr>
+    </tbody>
+  </table>
+	<h1 class="themchu">Card VGA RTX 5070 được Nvidia trang bị các công nghệ gì?</h1>
+	<img style="width:  960px; margin-top: 10px;" src="images/tt312.jpg">
+	<ul style="margin-top: 10px;">
+    <li><strong>Kiến trúc Blackwell:</strong> Cơ sở cho sức mạnh vượt trội, tối ưu cho việc chơi game và sáng tạo.</li><br>
+    <li><strong>Tensor Cores thế hệ thứ 5:</strong> Hiệu suất AI tối ưu với FP4 và DLSS 4, đạt 1406 AI TOPS trên RTX 5070 Ti và 988 AI TOPS trên RTX 5070.</li><br>
+    <li><strong>Streaming Multiprocessors mới:</strong> Tối ưu cho neural shaders.</li><br>
+    <li><strong>Ray Tracing Cores thế hệ thứ 4:</strong> Xử lý hình học phức tạp, mang lại độ họa chân thực hơn bao giờ hết.</li><br>
+    <li><strong>DLSS 4 với Multi Frame Generation:</strong> Công nghệ AI cách mạng, tăng tốc độ khung hình gấp 4 lần so với phương pháp render thông thường, mang lại trải nghiệm chơi game mượt mà tuyệt vời.</li><br>
+    <li><strong>Reflex 2 với Frame Warp (sắp ra mắt):</strong> Giảm thiểu độ trễ tối đa, tạo lợi thế trong các trò chơi eSports.</li><br>
+    <li><strong>NVIDIA Encoder (NVENC) thế hệ thứ 9:</strong> Tăng cường tốc độ render video, hỗ trợ livestream với chất lượng cao.</li><br>
+    <li><strong>Bộ nhớ GDDR7:</strong> 16GB cho RTX 5070 Ti và 12GB cho RTX 5070, băng thông lần lượt là 896 GB/s và 672 GB/s.</li>
+  </ul>
+	<h1 class="themchu">Giá bán của RTX 5070 chỉ bằng 1/3 so với RTX 4090?</h1>
+	<img style="width:  960px; margin-top: 10px;" src="images/tt3123.jpg">
+	<p>So với mức giá của RTX 4090 (1.599$, khoảng 40 triệu VND), RTX 5070 Ti và 5070 thực sự là một món hời không thể tin được. Với chi phí chỉ bằng 1/3, bạn có thể sở hữu sức mạnh tương đương, thậm chí còn vượt trội hơn nhờ công nghệ DLSS 4 tiên tiến.</p>
+	<img style="width:  960px; margin-top: 10px;" src="images/tt31234.jpg">
+	<p>Dòng sản phẩm RTX 5070 không chỉ phục vụ cho game thủ mà còn là công cụ hữu ích cho những nhà sáng tạo nội dung. Với NVIDIA Studio, bạn sẽ trải nghiệm hiệu suất vượt trội trong các tác vụ như chỉnh sửa video, render 3D và thiết kế đồ họa, nhờ vào khả năng tăng tốc RTX trong các ứng dụng sáng tạo hàng đầu.</p><br>
+	<p>Sự ra mắt của dòng RTX 5070 thực sự là một sự kiện gây chấn động trong lĩnh vực card đồ họa. Với sức mạnh vượt trội, công nghệ tiên tiến và mức giá hấp dẫn, RTX 5070 Ti và RTX 5070 chắc chắn sẽ trở thành lựa chọn ưu việt cho game thủ và những người sáng tạo nội dung trong thời gian tới.</p>
+	</div>
+	<button id="chatbot-toggle-btn"><img src="images/d933fa84-f4b5-4c27-9db7-804129b46376_preview_rev_1.png" height="30px"></button>
+    <div class="chatbot-popup" id="chatbot-popup">
+        <div class="chat-header">
+            <span> <a href="https://www.thecodinghubs.com/" target="_blank">HDD Computer Xin chào</a></span>
+			<button id="close-btn">&times;</button>
+        </div>
+        <div class="chat-box" id="chat-box">
+			<div id="message-section">
+      <div class="message" id="bot"><span id="bot-response" >Xin chào, tôi có thể giúp gì cho bạn</span></div>
+    </div>
+		</div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Gửi tin nhắn...">
+            <button id="send-btn">gửi</button>
+        </div>
+        <div class="copyright">
+            <a  href="https://www.thecodinghubs.com/" target="_blank"></a>
+        </div>
+	</div>
+		<div class="footer">
+  <div class="footer-column">
+    <h4>THÔNG TIN LIÊN HỆ</h4>
+    <strong>CÔNG TY TNHH KỸ THUẬT CÔNG NGHỆ HDD COMPUTER</strong>
+    <p>CN1: 201 Bông Sao, Phường 5, Quận 8, TP – HCM</p>
+    <p>(ĐT: 0424.801.009 – 0938.474364 – 0899.853210)</p>
+    <p>CN2: 197 Đường 30/4 , Phường Thắng Nhất, TP–Vũng Tàu (ĐT: 0902.870125)</p>
+    <p>CSKH / Bảo Hành: 0374.557345</p>
+    <p>Mail CSKH: <a href="mailto:cskh@thuancomputer.com">cskh@HHDcomputer.com</a></p>
+    <p>Giờ mở cửa: 8:30 AM – 20:00 PM</p>
+  </div> 
+  <div class="footer-column2">
+    <h4>DANH MỤC NỔI BẬT</h4>
+    <p><a href="sp.html">PC Gaming</a></p>
+    <p><a href="main.html">Mainboard – Bo mạch chủ</a></p>
+    <p><a href="cpu.html">CPU – Bộ vi xử lý</a></p>
+    <p><a href="vga.html">VGA – Card đồ họa</a></p>
+    <p><a href="ram.html">Ram – Bộ nhớ trong</a></p>
+    <p><a href="ssd.html">SSD – HDD – M.2 NVME</a></p>
+    <p><a href="psu.html">PSU – Nguồn máy tính</a></p>
+    <p><a href="case.html">Case – Thùng vỏ máy tính</a></p>
+  </div>
+</div>
+</div>
+<script src="scripts/tt3.js"></script>
+</body>
+</html>
